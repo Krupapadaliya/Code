@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+double a;
+double b;
+double add;
+double sub;
+double multi;
+double div;
+cout << "enter a and b" ;
+cin >> a >> b;
+
+add=a+b;
+sub=a-b;
+multi=a*b;
+div=a/b;
+cout << "addition of a and b:" << add << endl;
+cout << "subtraction of a and b:" << sub << endl;
+cout << "multiplication of a and b:" << multi << endl;
+cout << "division of a and b:"<< div  << endl;
+    return 0;
+}
