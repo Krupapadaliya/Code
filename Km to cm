@@ -1,0 +1,28 @@
+#include<iostream>
+#include<iomanip>
+using namespace std;
+
+int main()
+{
+double kmtom =1000.0;
+double mtocm= 100.0;
+double cmtoft= 0.0328084;
+double fttoin=12;
+
+double km;
+
+cout << "Enter Km";
+cin >> km;
+
+double meter= km*kmtom;
+double cm=meter*mtocm;
+double ft=cm*cmtoft;
+double in=ft*fttoin;
+
+cout <<fixed<<setprecision(2);
+cout << "kilometer to meter is:" <<meter<<endl;
+cout << "kilometer to centimeter is:" << cm<<endl;
+cout << "kilometer to ft is:" <<ft<<endl;
+cout << "kilometer to in is:" << in<<endl;
+    return 0;
+}
