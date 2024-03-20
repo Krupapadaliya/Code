@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+  
+  int sort_val(int &a, int &b) {
+  if (a<=b) {
+  return a;
+  return b;}
+  else{
+  int temp=a;
+  a = b;
+  b = temp;
+  return a;
+  return b;
+ } 
+  }
+  int main(){
+    int x = 50;
+    int y = 20;
+    
+    
+  sort_val(x,y);
+  
+  cout << "enter the value of x  :" << x << endl;
+  cout << "enter the value of y.:" << y << endl;
+  
+  
+
+  return 0;
+  }
