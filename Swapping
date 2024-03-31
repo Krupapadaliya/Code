@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    int p = 5, q = 10;
+
+    cout << "Before swapping." << endl;
+    cout << "p = " << p << ", q = " << q << endl;
+
+    p = p + q;
+    q = p - q;
+    p = p - q;
+
+    cout << "\nAfter swapping." << endl;
+    cout << "p = " << p << ", q = " << q << endl;
+
+    return 0;
+}
