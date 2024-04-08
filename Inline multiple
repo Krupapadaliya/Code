@@ -11,6 +11,6 @@ int a,b ;
     cin >>a;
     cout << "Enter the 2nd number" << endl;
     cin >> b;
-    cout << "Multiplication is :" <<Multiply (a,b)<< endl;
+    cout << "Multiplication is :" <<Multiple (a,b)<< endl;
     return 0;
 }
