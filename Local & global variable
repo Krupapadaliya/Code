@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int K=100;
+int main()
+{
+int K=500;
+    cout << "The local variable is:" <<K<< endl;
+    cout << "The global variable is :"<< :: K<< endl;
+    return 0;
+}
